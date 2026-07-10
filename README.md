@@ -1,5 +1,9 @@
 # Claude Advisor Pattern
 
+<!-- bmc:front -->
+<p align="center"><a href="https://buymeacoffee.com/dayongfan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=dayongfan&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a coffee"></a></p>
+<!-- /bmc:front -->
+
 **Sonnet executes, Opus advises.** A Python implementation of the advisor pattern for the Anthropic Claude API using standard custom tools.
 
 > The Claude API doesn't have a native `advisor` tool type. This library implements the same behavior: the executor model (Sonnet) autonomously decides when to consult a senior advisor (Opus) during task execution, using a standard tool-use loop.
@@ -76,6 +80,10 @@ The executor autonomously decides when to use the advisor. Typical patterns:
 | Quality review | Asks advisor to evaluate a draft |
 | Trade-off decision | Asks advisor to weigh options |
 | Routine execution | Proceeds without consulting |
+
+<!-- bmc:middle -->
+<p align="center"><a href="https://buymeacoffee.com/dayongfan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=dayongfan&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a coffee"></a></p>
+<!-- /bmc:middle -->
 
 ## Configuration
 
@@ -168,6 +176,6 @@ MIT
 - [Anthropic Claude API](https://docs.anthropic.com)
 - Inspired by the advisor pattern concept for multi-model orchestration
 
-## Support
-
-[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=dayongfan&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://buymeacoffee.com/dayongfan)
+<!-- bmc:end -->
+<p align="center"><a href="https://buymeacoffee.com/dayongfan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=dayongfan&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a coffee"></a></p>
+<!-- /bmc:end -->
